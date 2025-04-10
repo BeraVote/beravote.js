@@ -1,0 +1,11 @@
+{
+    "name": "beravote.js",
+    "version": "1.0.1",
+    "main": "index.js",
+    "type": "module",
+    "description": "A JS SDK to simplify usage of the Beravote API.",
+    "dependencies": {
+      "node-fetch": "^3.3.2"
+    }
+  }
+  
