@@ -8,6 +8,10 @@ A lightweight and structured JavaScript/Node.js client for interacting with the 
 npm install beravote.js
 ```
 
+```html
+<script src="https://cdn.jsdelivr.net/gh/BeraVote/beravote.js/dist/beravote.min.js" integrity="sha384-5dVdSwcJ+Rj6EnGCGJRMWfP6d9qUe6Ly4t7SIjuxBZwQ/ytWbZA0ssqa5Pz01kIg" crossorigin="anonymous"></script>
+```
+
 ## Usage
 
 [Get Api Key](https://beravote.gitbook.io/beravote/api-reference/api-keys)
