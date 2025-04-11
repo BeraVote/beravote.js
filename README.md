@@ -17,7 +17,7 @@ Library support multiple endpoints:
 <table><thead><tr><th>Chain</th><th>Endpoint</th><th data-hidden></th></tr></thead><tbody><tr><td>Berachain Mainnet &#x26; Berachain bArtio B2</td><td>https://beravote.com/api/</td><td></td></tr><tr><td>Multiple EVM Chains</td><td>https://evm.dvote.ai/api/</td><td></td></tr><tr><td>Solana</td><td>https://sol.dvote.ai/api/</td><td></td></tr><tr><td>Bitcoin (BRC20, Ordinals, Runes)</td><td>https://btc.dvote.ai/api/</td><td></td></tr></tbody></table>
 
 ```js
-import { ApiClient } from 'beravote.js';
+import ApiClient from 'beravote.js';
 
 const baseUrl = 'https://beravote.com/api/';
 const apiKey = 'xxx';
