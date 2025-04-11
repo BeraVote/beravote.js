@@ -1,11 +1,11 @@
-# 🔗 vote.js
+# 🔗 beravote.js
 
 A lightweight and structured JavaScript/Node.js client for interacting with the [Beravote API](https://beravote.gitbook.io/beravote/api-reference/routes), making it easier to fetch proposals, supported chains, networks, comments, and more.
 
 ## Installation
 
 ```bash
-npm install vote.js
+npm install beravote.js
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ Library support multiple endpoints:
 <table><thead><tr><th>Chain</th><th>Endpoint</th><th data-hidden></th></tr></thead><tbody><tr><td>Berachain Mainnet &#x26; Berachain bArtio B2</td><td>https://beravote.com/api/</td><td></td></tr><tr><td>Multiple EVM Chains</td><td>https://evm.dvote.ai/api/</td><td></td></tr><tr><td>Solana</td><td>https://sol.dvote.ai/api/</td><td></td></tr><tr><td>Bitcoin (BRC20, Ordinals, Runes)</td><td>https://btc.dvote.ai/api/</td><td></td></tr></tbody></table>
 
 ```js
-import { ApiClient } from 'vote.js';
+import { ApiClient } from 'beravote.js';
 
 const baseUrl = 'https://beravote.com/api/';
 const apiKey = 'xxx';
